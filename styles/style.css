@@ -57,6 +57,7 @@ section.faq {
     grid: 1fr / 38.8rem 1fr;
     gap: 8.7rem;
     max-width: 92rem;
+    margin-top: 0;
     min-height: 50.9rem;
   }
 }
