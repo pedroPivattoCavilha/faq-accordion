@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+
+  <section class="faq">
+    <section class="faq_img-container">
+      <div class="main-images-container">
+        <picture class="faq_woman">
+          <source media="(max-width: 1109px )" srcset="./images/illustration-woman-online-mobile.svg">
+          <source media="(min-width: 1110px )" srcset="./images/illustration-woman-online-desktop.svg">
+          <img src="./images/illustration-woman-online-desktop.svg" alt="Woman Illustration">
+        </picture>
+        <picture class="faq_shadow">
+          <source media="(max-width: 1109px)" srcset="./images/bg-pattern-mobile.svg">
+          <source media="(min-width: 1110px)" srcset="./images/bg-pattern-desktop.svg">
+          <img src="./images/bg-pattern-desktop.svg" alt="Box Shadow">
+        </picture>
+      </div>
+
+      <img src="./images/illustration-box-desktop.svg" alt="Box" class="faq_box">
+    </section>
+
+    <section class="faq_text-container">
+      <h2 class="faq_heading">FAQ</h2>
+
+      <ul class="faq_list">
+        <li class="faq_item">
+          <section class="faq_item_summary">
+            <p class="faq_item_description">
+              How many team members can I invite?
+            </p>
+            <div class="faq_item_arrow">
+              <img src="./images/icon-arrow-down.svg" alt="arrow" class="faq_item_arrow_icon">
+            </div>
+          </section>
+          <section class="faq_item_detail">
+            You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+          </section>
+        </li>
+        
+        <li class="faq_item">
+          <section class="faq_item_summary">
+            <p class="faq_item_description">
+              What is the maximum file upload size?
+            </p>
+            <div class="faq_item_arrow">
+              <img src="./images/icon-arrow-down.svg" alt="arrow" class="faq_item_arrow_icon">
+            </div>
+          </section>
+          <section class="faq_item_detail">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </section>
+        </li>
+
+        <li class="faq_item">
+          <section class="faq_item_summary">
+            <p class="faq_item_description">
+              How do I reset my password?
+            </p>
+            <div class="faq_item_arrow">
+              <img src="./images/icon-arrow-down.svg" alt="arrow" class="faq_item_arrow_icon">
+            </div>
+          </section>
+          <section class="faq_item_detail">
+            Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
+          </section>
+        </li>
+
+        <li class="faq_item">
+          <section class="faq_item_summary">
+            <p class="faq_item_description">
+              Can I cancel my subscription?
+            </p>
+            <div class="faq_item_arrow">
+              <img src="./images/icon-arrow-down.svg" alt="arrow" class="faq_item_arrow_icon">
+            </div>
+          </section>
+          <section class="faq_item_detail">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </section>
+        </li>
+
+        <li class="faq_item">
+          <section class="faq_item_summary">
+            <p class="faq_item_description">
+              Do you provide additional support?
+            </p>
+            <div class="faq_item_arrow">
+              <img src="./images/icon-arrow-down.svg" alt="arrow" class="faq_item_arrow_icon">
+            </div>
+          </section>
+          <section class="faq_item_detail">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </section>
+        </li>
+      </ul>
+    </section>
+    </section>
+  </section>
+</body>
+</html>
